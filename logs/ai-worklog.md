@@ -49,3 +49,23 @@ Changes:
 Status:
 Repository organization is ready for the next implementation task.
 
+## 2026-06-03
+
+### Repository-based Project Generator
+
+Created the project templates and new-project.sh inside this repository.
+
+Changes:
+- Added templates/AGENTS.template.md.
+- Added templates/requirements.template.md.
+- Added templates/current-task.template.md.
+- Added scripts/new-project.sh.
+- Made scripts/new-project.sh executable.
+- Updated README.md with default usage and AI_DEV_PROJECTS_DIR test usage.
+- Recorded the completed task in tasks/done.md.
+
+Result:
+New projects can be created with:
+
+- scripts/new-project.sh project-name
+- AI_DEV_PROJECTS_DIR=/tmp scripts/new-project.sh project-name

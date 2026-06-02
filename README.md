@@ -124,6 +124,20 @@ Commit changes:
 
 - git commit -m "describe the change"
 
+## Creating a New Project
+
+Use `scripts/new-project.sh` to create a new AI-driven development project from the templates in this repository.
+
+Create a project under the default directory, `/home/ai-dev/projects`:
+
+- scripts/new-project.sh project-name
+
+Create a project under a safe test directory by overriding `AI_DEV_PROJECTS_DIR`:
+
+- AI_DEV_PROJECTS_DIR=/tmp scripts/new-project.sh project-name
+
+The script creates the standard folder structure, copies `AGENTS.md`, `docs/requirements.md`, and `tasks/current.md` from `templates/`, initializes Git, and creates the first commit.
+
 ## Current Stage
 
 The current stage is file-based workflow setup.
