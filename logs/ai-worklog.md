@@ -69,3 +69,17 @@ New projects can be created with:
 
 - scripts/new-project.sh project-name
 - AI_DEV_PROJECTS_DIR=/tmp scripts/new-project.sh project-name
+
+### GitHub Pull Request Workflow Rules
+
+Added GitHub Pull Request workflow rules to AGENTS.md.
+
+Changes:
+- Require feature branch work and prohibit direct commits to main.
+- Require tests or confirmation commands after implementation.
+- Require commit, push, and PR creation with GitHub CLI gh.
+- Define required PR body sections: Summary, Changes, Test Results, Risks, and Review Points.
+- Prohibit PR merge, force push, production deploy, and destructive changes without explicit permission.
+
+Result:
+Future AI coding work has a clear GitHub PR workflow and safety boundary.

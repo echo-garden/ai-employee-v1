@@ -33,3 +33,17 @@ Completed items:
 
 Result:
 New AI-driven development project workspaces can be generated from templates stored inside this repository.
+
+### GitHub Pull Request workflow rules
+
+Completed the AGENTS.md workflow update.
+
+Completed items:
+- Added feature branch and no-direct-main rules.
+- Added test or confirmation command requirement.
+- Added commit, push, and gh-based PR creation requirement.
+- Added required PR body sections.
+- Added explicit permission requirements for merge, force push, production deploy, and destructive changes.
+
+Result:
+The repository instructions now define the GitHub Pull Request workflow for future work.
