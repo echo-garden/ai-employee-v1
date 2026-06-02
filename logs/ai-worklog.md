@@ -19,3 +19,18 @@ Files prepared:
 
 Status:
 Ready for initial Git commit.
+
+## Project Template Setup
+
+Created reusable templates and a new project creation script.
+
+Created files:
+- /home/ai-dev/templates/AGENTS.template.md
+- /home/ai-dev/templates/requirements.template.md
+- /home/ai-dev/templates/current-task.template.md
+- /home/ai-dev/scripts/new-project.sh
+
+Result:
+New projects can now be created with:
+
+- /home/ai-dev/scripts/new-project.sh project-name
