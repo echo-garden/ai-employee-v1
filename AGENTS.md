@@ -44,6 +44,22 @@ The user prefers practical, step-by-step implementation over abstract theory.
 8. Record the work in logs/ai-worklog.md.
 9. Suggest the next task.
 
+## GitHub Pull Request Workflow
+- Do all implementation work on a feature branch.
+- Do not commit directly to `main`.
+- After implementation, run tests or a relevant confirmation command.
+- Commit the completed work.
+- Push the feature branch to GitHub.
+- Use GitHub CLI `gh` to create a Pull Request.
+- Include the following sections in the PR body:
+  - Summary
+  - Changes
+  - Test Results
+  - Risks
+  - Review Points
+- Do not merge the PR until the user gives an explicit instruction.
+- Do not force push, deploy to production, or make destructive changes without explicit permission.
+
 ## Safety Rules
 - Do not delete large parts of the project without confirmation.
 - Do not modify production data directly.
