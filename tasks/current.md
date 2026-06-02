@@ -1,25 +1,18 @@
 # Current Task
 
 ## Goal
-Create the initial file-based AI-driven development workspace.
+Create project templates and new-project.sh.
 
 ## Tasks
-1. Create AGENTS.md.
-2. Create requirements and documentation files.
-3. Create task management files.
-4. Create worklog file.
-5. Initialize Git.
-6. Make the first commit.
+1. Decide where project templates should live inside this repository.
+2. Create reusable template files for new projects.
+3. Create new-project.sh for generating a new project workspace.
+4. Document how to use new-project.sh.
+5. Test the script with a safe sample project path.
 
 ## Completion Criteria
-- AGENTS.md exists and includes work rules.
-- docs/requirements.md exists.
-- docs/overview.md exists.
-- docs/architecture.md exists.
-- docs/decisions.md exists.
-- docs/setup.md exists.
-- tasks/backlog.md exists.
-- tasks/current.md exists.
-- tasks/done.md exists.
-- logs/ai-worklog.md exists.
-- Initial Git commit is created.
+- Template files are stored in the repository.
+- new-project.sh is stored in the repository.
+- The script can create a project folder with the standard structure.
+- Usage instructions are documented.
+- The work is recorded in logs/ai-worklog.md.

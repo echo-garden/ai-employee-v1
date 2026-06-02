@@ -16,7 +16,7 @@ This project helps manage:
 - completed tasks
 - AI work logs
 - development rules
-- reusable prompts
+- reusable prompts in tasks/prompts/
 - future project templates
 
 ## Why This Exists
@@ -41,6 +41,7 @@ The project contains:
 - README.md
 - docs/
 - tasks/
+- tasks/prompts/
 - logs/
 - src/
 - tests/
@@ -72,6 +73,10 @@ This file stores future task candidates.
 ### tasks/done.md
 
 This file stores completed tasks.
+
+### tasks/prompts/
+
+This directory stores reusable prompts for AI-driven work.
 
 ### logs/ai-worklog.md
 

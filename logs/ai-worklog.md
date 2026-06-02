@@ -34,3 +34,18 @@ Result:
 New projects can now be created with:
 
 - /home/ai-dev/scripts/new-project.sh project-name
+
+## Repository Cleanup
+
+Updated the repository workflow documents based on the current project state.
+
+Changes:
+- Kept the existing AGENTS.md language policy change.
+- Moved the completed initial setup task into tasks/done.md.
+- Set tasks/current.md to the next task: project templates and new-project.sh.
+- Standardized the prompt location as tasks/prompts/.
+- Updated docs/requirements.md and README.md to match tasks/prompts/.
+
+Status:
+Repository organization is ready for the next implementation task.
+

@@ -24,7 +24,7 @@ The first version should include:
 - docs directory
 - tasks directory
 - logs directory
-- prompts directory
+- tasks/prompts directory
 - Git initialization
 - Basic task workflow
 - Basic templates for future projects

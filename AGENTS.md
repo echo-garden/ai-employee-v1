@@ -56,3 +56,10 @@ The user prefers practical, step-by-step implementation over abstract theory.
 - Show commands when needed.
 - Explain what changed and why.
 - Keep summaries short but useful.
+
+## Language Policy
+
+- Respond to the user in Japanese by default.
+- Keep code, commands, file names, branch names, commit messages, and technical identifiers in English.
+- Explain plans, summaries, risks, and next steps in Japanese.
+- If the user writes in Japanese, reply in Japanese.
