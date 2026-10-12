@@ -47,3 +47,8 @@ Completed items:
 
 Result:
 The repository instructions now define the GitHub Pull Request workflow for future work.
+
+
+## 2026-10-12 VPS shared workflow preservation
+
+Archived the standalone `/home/ai-dev/scripts/new-project.sh` and its templates under `vps-shared/`, keeping the current repository script unchanged. Shell syntax and secret-history checks passed.
