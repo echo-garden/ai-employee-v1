@@ -83,3 +83,10 @@ Changes:
 
 Result:
 Future AI coding work has a clear GitHub PR workflow and safety boundary.
+
+
+## 2026-10-12 VPS shared workflow preservation
+
+- Preserved the standalone VPS project-generation script and its three templates under `vps-shared/`.
+- Kept the newer repository-level script unchanged.
+- Verified the archived files against the local VPS snapshot, checked shell syntax with `bash -n`, and scanned all Git history for secrets before publishing the migration branch.
